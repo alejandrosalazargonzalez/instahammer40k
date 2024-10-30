@@ -30,3 +30,17 @@ To https://github.com/alejandrosalazargonzalez/aplicacion-resumen-warhammer40k.g
 Rama 'version-1' configurada para hacer seguimiento a la rama remota 'version-1' de 'origin'.
 ```
 ## Agregar cambios y hacer commit
+```code
+    git add .
+    git commit -m "Inicio de la versión 1 del proyecto"
+[version-1 574cf72] Inicio de la versión 1 del proyecto
+ 1 file changed, 21 insertions(+), 1 deletion(-)
+```
+## Confirmar que la rama fue creada y está en el repositorio remoto
+```code
+    git branch -r
+  origin/HEAD -> origin/main
+  origin/main
+  origin/version-1
+```
+## Verifica que todos los cambios están subidos al remoto. Realiza la mezcla y sube los cambios a la rama princial
