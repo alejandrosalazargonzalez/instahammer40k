@@ -44,3 +44,23 @@ Rama 'version-1' configurada para hacer seguimiento a la rama remota 'version-1'
   origin/version-1
 ```
 ## Verifica que todos los cambios están subidos al remoto. Realiza la mezcla y sube los cambios a la rama princial
+```code
+    git checkout main 
+Cambiado a rama 'main'
+Tu rama está actualizada con 'origin/main'.
+    git merge version-1 
+Actualizando 1816d3a..e026bc3
+Fast-forward
+ ISSUE.md | 36 +++++++++++++++++++++++++++++++++++-
+ 1 file changed, 35 insertions(+), 1 deletion(-)
+    git push origin main 
+Enumerando objetos: 5, listo.
+Contando objetos: 100% (5/5), listo.
+Compresión delta usando hasta 4 hilos
+Comprimiendo objetos: 100% (3/3), listo.
+Escribiendo objetos: 100% (3/3), 641 bytes | 641.00 KiB/s, listo.
+Total 3 (delta 1), reusados 0 (delta 0), pack-reusados 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/alejandrosalazargonzalez/aplicacion-resumen-warhammer40k.git
+   1816d3a..e026bc3  main -> main
+```
