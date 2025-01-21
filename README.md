@@ -1,4 +1,4 @@
-# aplicacion-resumen-warhammer40k
+# instahammer40k
 >[!IMPORTANT]
 >Este proyecto esta abierto a cambios 
 ## Definición inicial
